@@ -54,9 +54,9 @@ group :development, :test do
 end
 
 group :development do
-  gem "solargraph"
+  gem "solargraph", ">= 0.49.0"
 
-  gem "erb_lint"
+  gem "erb_lint", ">= 0.4.0"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
@@ -70,6 +70,6 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
+  gem "selenium-webdriver", ">= 4.8.0"
+  gem "webdrivers", ">= 5.3.0"
 end
